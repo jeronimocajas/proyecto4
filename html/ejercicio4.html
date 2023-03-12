@@ -7,6 +7,66 @@
     <title>Ejemplo Formulario #4</title>
 </head>
 <body>
-    
+    <form action="">
+        <table border="1">
+            <tr>
+                <td colspan="2"> <center> Basketball Registration Form </center> </td>
+            </tr>
+            <tr>
+                <td colspan="2">Player Name <br>
+                    <input type="text" placeholder="First">  <input type="text" placeholder="Last">
+                </td>
+            </tr>
+            <tr>
+                <td>Age <br>
+                    <input type="number" name="" id="" style="width: 200px;" min="30">
+                </td>
+
+                <td>Email <br>
+                    <input type="email" name="" id=""  pattern="[a-zA-Z0-9._%+-]+@[\w.-]+\.[com]{3}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Address <br>
+                    <input type="text" placeholder="Street Address" style="width: 375px;"> <br>
+                    <input type="text"  placeholder="Street Address Line 2" style="width: 375px;">
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="City" style="width: 200px;">
+                </td> 
+                <td>
+                    <input type="text" placeholder="Region"> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <input type="text" placeholder="Postal/Zip Code" style="width: 200px;">
+                </td>
+                <td>
+                   <input type="text" placeholder="Country" list="pepeguama">
+                   <datalist id="pepeguama">
+                    <option value="El"></option>
+                    <option value="Pepe"></option>
+                    <option value="Guama"></option>
+                   </datalist>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Home Phone <br>
+                    <input type="number" placeholder="#### #### ####" style="width: 200px;">
+                </td>
+                <td>Cell phone <br>
+                    <input type="number" placeholder="#### #### ####">
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="">
+    </form>
 </body>
 </html>
